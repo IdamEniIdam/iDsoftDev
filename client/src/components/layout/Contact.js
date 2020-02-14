@@ -82,7 +82,7 @@ class Contact extends Component {
         <a className="Fb" alt="instagram" href="#ffff"><p className="fa fa-instagram"></p></a>
         <a className="Fb" alt="twitter" href="#ffff"><p className="fa fa-twitter-square"></p></a>
       </div>
-          </Col>
+          </Col>  
           <Col sm>
               
     <div >
