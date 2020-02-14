@@ -76,11 +76,11 @@ class Contact extends Component {
       <p className="fa fa-envelope">training@idsoftdev.herokuapp.com</p>
       </div>
       <div style={{textAlign: 'center'}}>
-        <a className="Fb" alt="facebook" href="#ffff"><p className="fa fa-facebook-official"></p></a>
-        <a className="Fb" alt="google" href="#ffff"><p className="fa fa-google"></p></a>
-        <a className="Fb" alt="google" href="#ffff"><p className="fa fa-linkedin-square"></p></a>
-        <a className="Fb" alt="instagram" href="#ffff"><p className="fa fa-instagram"></p></a>
-        <a className="Fb" alt="twitter" href="#ffff"><p className="fa fa-twitter-square"></p></a>
+        <a className="Fb" alt="facebook" href="https://www.facebook.com/IDLegend"><p className="fab fa-facebook fa-2x"></p></a>
+        {/* <a className="Fb" alt="google" href="https://google.com/idameniidam"><p className="fab fa-google fa-2x"></p></a> */}
+        <a className="Fb" alt="linkedin" href="https:/www.linkedin.com/in/idam-eni-idam-52ab47155"><p className="fab fa-linkedin fa-2x"></p></a>
+        <a className="Fb" alt="instagram" href="https:/www.instagram.com/idameniidam"><p className="fab fa-instagram fa-2x"></p></a>
+        <a className="Fb" alt="twitter" href="https:/www.twitter.com/idameniidam"><p className="fab fa-twitter fa-2x"></p></a>
       </div>
           </Col>  
           <Col sm>
