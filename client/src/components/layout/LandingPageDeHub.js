@@ -97,7 +97,7 @@ class LandingPageDeHub extends Component {
                         <Carousel.Caption>
                             <div style={{ marginTop: '-100px' }}>
                                 <h3 style={{ color: 'red' }}>SMARTER WAY TO LEARN</h3>
-                                <p>Guided leaning paths, technical and soft skills, build a portfolio and so much to learn.
+                                <p>Guided learning paths, technical and soft skills, build a portfolio and so much to learn.
 </p>
                             </div>
                         </Carousel.Caption>

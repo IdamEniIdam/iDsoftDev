@@ -73,7 +73,7 @@ class Contact extends Component {
       <div style={{textAlign: 'center'}}>
       <p className="fa fa-phone">  +2347038335277</p>
       <br />
-      <p className="fa fa-envelope">training@idsoftdev.com</p>
+      <p className="fa fa-envelope">training@idsoftdev.herokuapp.com</p>
       </div>
       <div style={{textAlign: 'center'}}>
         <a className="Fb" alt="facebook" href="#ffff"><p className="fa fa-facebook-official"></p></a>
