@@ -35,6 +35,14 @@ import RegSuccessful from "./components/layout/AfterCourseSubmtion";
 import Html from "./components/layout/coures/Html";
 import Css from "./components/layout/coures/Css";
 import Bootstrap from "./components/layout/coures/Bootstrap";
+import Expoio from "./components/layout/coures/Expoio";
+import Expressjs from "./components/layout/coures/Expressjs";
+import GithubGitlab from "./components/layout/coures/GithubGitlab";
+import Heroku from "./components/layout/coures/Heroku";
+import Mongodb from "./components/layout/coures/Mongodb";
+import Nodejs from "./components/layout/coures/Nodejs";
+import Reactjs from "./components/layout/coures/Reactjs";
+import ReactNative from "./components/layout/coures/ReactNative";
 import PayStack from "./components/layout/PayStack";
 import "./App.css";
 import JavaScript from "./components/layout/coures/JavaScript";
@@ -80,6 +88,14 @@ class App extends Component {
               <Route exact path="/css" component={Css} />
               <Route exact path="/bootstrap" component={Bootstrap} />
               <Route exact path="/javascript" component={JavaScript} />
+              <Route exact path="/expoio" component={Expoio} />
+              <Route exact path="/expresjs" component={Expressjs} />
+              <Route exact path="/githubgitlab" component={GithubGitlab} />
+              <Route exact path="/heroku" component={Heroku} />
+              <Route exact path="/mongodb" component={Mongodb} />
+              <Route exact path="/nodejs" component={Nodejs} />
+              <Route exact path="/reactjs" component={Reactjs} />
+              <Route exact path="/reactnative" component={ReactNative} />
               <Route exact path="/profiles" component={Profiles} />
               <Route exact path="/profile/:handle" component={Profile} />
               <Switch>

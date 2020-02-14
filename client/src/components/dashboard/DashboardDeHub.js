@@ -86,8 +86,8 @@ class DashboardDeHub extends Component {
           <p style={{ textAlign: 'center', color: 'white'}}>
           Please click the button below to set up you course registration profile.<br/><br/>
       
-                  <Link to="/create-profile" className="btn btn-lg btn-info">
-                     Create Course Registration
+                  <Link to="/create-profile" className="btn btn-lg" style={{backgroundColor: 'green', color: 'white'}}>
+                     start registration process
                  </Link>
           </p>
         </Container>

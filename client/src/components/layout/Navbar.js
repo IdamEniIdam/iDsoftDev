@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import idlog from './images/idlog.jpeg';
 import { logoutUser } from "../../actions/authActions";
 import { clearCurrentProfile } from "../../actions/profileActions";
 
@@ -58,14 +59,14 @@ class Navbar extends Component {
 
     const guestLinks = (
       <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-          <Link className="nav-link" to="/register">
-            Register
+           <li className="nav-item">
+          <Link className="nav-link" to="/login">
+            Login
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/login">
-            Login
+          <Link className="nav-link" to="/register">
+            Register
           </Link>
         </li>
         <li className="nav-item">
@@ -74,45 +75,50 @@ class Navbar extends Component {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/pricing">
-          Pricing
-          </Link>
-        </li>
-        <li className="nav-item">
           <Link className="nav-link" to="/training">
           Training
           </Link>
         </li>
         <li className="nav-item">
+          <Link className="nav-link" to="/pricing">
+          Pricing
+          </Link>
+        </li>
+     
+        <li className="nav-item">
           <Link className="nav-link" to="/contact">
           Contact
           </Link>
         </li>
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/payment">
-          PayStack
-          </Link>
-        </li> */}
       </ul>
     );
 
     return (
       <nav className="navbar navbar-expand-sm mb-4" style={divNav}>
         <div className="container">
-          <Link style={{color: 'white'}} className="navbar-brand" to="/">
+          <Link style={{color: 'white', textAlign: 'center'}} className="navbar-brand" to="/">
+          <img
+          className="rounded-circle"
+            style={{width: '130px'}}
+                            src={idlog}
+                           alt={"id log"}
+                        />
+                        <br />
             iDSoftDev
           </Link>
           <button
-          style={{backgroundColor: 'pink', color: 'red'}}
+          style={{backgroundColor: 'pink', color: 'green', height: '50px'}}
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#mobile-nav"
           >
-            <span className="navbar-toggler-icon" />
+            <p style={{fontSize: '25px', textAlign: 'center', marginTop: '7px'}}>menu</p>
+            
           </button>
 
           <div className="collapse navbar-collapse" id="mobile-nav">
+          {isAuthenticated ? authLinks : guestLinks}
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/profiles">
@@ -127,7 +133,7 @@ class Navbar extends Component {
                 </Link>
               </li>
             </ul>
-            {isAuthenticated ? authLinks : guestLinks}
+            {/* {isAuthenticated ? authLinks : guestLinks} */}
           </div>
         </div>
       </nav>

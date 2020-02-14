@@ -106,7 +106,7 @@ class Courses extends Component {
 
         <Col sm style={{backgroundColor: '#ffb3b3', borderRadius: '20px'}}>
         <div>
-        <a href="/dashboard">       
+        <Link to="/expresjs">       
       
         <Card style={{ backgroundColor: '#ffb3b3', borderWidth: 0 }}>
                 <br></br>
@@ -116,13 +116,15 @@ class Courses extends Component {
                 </Card.Body>
             </Card>
       
-        </a>
+        </Link>
         </div>
         </Col>
 
         <Col sm style={{backgroundColor:' #b3d1ff', borderRadius: '20px'}}> 
         <div>
-        <a href="/dashboard">
+
+        <Link to="/dashboard">
+        {/* <Link to="/reactjs"> */}
         
          <Card style={{backgroundColor: ' #b3d1ff', borderWidth: 0 }}>
                 <br></br>
@@ -131,7 +133,7 @@ class Courses extends Component {
                     <Card.Title>RAECT JS</Card.Title>
                 </Card.Body>
             </Card>
-            </a>
+            </Link>
             </div>
             </Col>
             </Row>
@@ -143,7 +145,10 @@ class Courses extends Component {
             <Row style={{textAlign: 'center'}}>
     <Col sm style={{backgroundColor: ' #ccffff', borderRadius: '20px'}}>
         <div>
-    <a href="/dashboard">
+
+        <Link to="/dashboard">
+
+    {/* <Link to="/reactnative"> */}
      
             <Card style={{backgroundColor: ' #ccffff', elevation: 0,borderWidth: 0}}>
                 <br></br>
@@ -154,14 +159,15 @@ class Courses extends Component {
                 </Card.Body>
             </Card>
         
-        </a>
+        </Link>
         </div>
         </Col> 
 
         <Col sm style={{backgroundColor: '#ffb3b3', borderRadius: '20px'}}>
         <div>
-        <a href="/dashboard">       
-      
+        {/* <Link to="/expoio">        */}
+        <Link to="/dashboard">
+
         <Card style={{ backgroundColor: '#ffb3b3', borderWidth: 0 }}>
                 <br></br>
                 <Card.Img style={{height: '50px', width: '50px', alignSelf: 'center'}} variant="top" src={expo} />
@@ -170,13 +176,15 @@ class Courses extends Component {
                 </Card.Body>
             </Card>
       
-        </a>
+        </Link>
         </div>
         </Col>
 
         <Col sm style={{backgroundColor:' #b3d1ff', borderRadius: '20px'}}> 
         <div>
-        <a href="/dashboard">
+        <Link to="/dashboard">
+
+        {/* <Link to="/nodejs"> */}
         
          <Card style={{backgroundColor: ' #b3d1ff', borderWidth: 0 }}>
                 <br></br>
@@ -185,7 +193,7 @@ class Courses extends Component {
                     <Card.Title>NODE JS</Card.Title>
                 </Card.Body>
             </Card>
-            </a>
+            </Link>
             </div>
             </Col>
             </Row>
@@ -197,7 +205,9 @@ class Courses extends Component {
             <Row style={{textAlign: 'center'}}>
     <Col sm style={{backgroundColor: ' #ccffff', borderRadius: '20px'}}>
         <div>
-    <a href="/dashboard">
+        <Link to="/dashboard">
+
+    {/* <Link to="/githubgitlab"> */}
      
             <Card style={{backgroundColor: ' #ccffff', elevation: 0,borderWidth: 0}}>
                 <br></br>
@@ -208,14 +218,15 @@ class Courses extends Component {
                 </Card.Body>
             </Card>
         
-        </a>
+        </Link>
         </div>
         </Col> 
 
         <Col sm style={{backgroundColor: '#ffb3b3', borderRadius: '20px'}}>
         <div>
-        <a href="/dashboard">       
-      
+        {/* <Link to="/mongodb">        */}
+        <Link to="/dashboard">
+
         <Card style={{ backgroundColor: '#ffb3b3', borderWidth: 0 }}>
                 <br></br>
                 <Card.Img style={{height: '50px', width: '50px', alignSelf: 'center'}} variant="top" src={mongodb} />
@@ -224,14 +235,15 @@ class Courses extends Component {
                 </Card.Body>
             </Card>
       
-        </a>
+        </Link>
         </div>
         </Col>
 
         <Col sm style={{backgroundColor:' #b3d1ff', borderRadius: '20px'}}> 
         <div>
-        <a href="/dashboard">
-        
+        {/* <Link to="/heroku"> */}
+        <Link to="/dashboard">
+
          <Card style={{backgroundColor: ' #b3d1ff', borderWidth: 0 }}>
                 <br></br>
                 <Card.Img style={{height: '50px', width: '50px', alignSelf: 'center'}} variant="top" src={heroku} />
@@ -239,7 +251,7 @@ class Courses extends Component {
                     <Card.Title>HEROKU</Card.Title>
                 </Card.Body>
             </Card>
-            </a>
+            </Link>
             </div>
             </Col>
             </Row>
