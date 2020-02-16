@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import isEmpty from '../../validation/is-empty';
+import ScrollArea from 'react-scrollbar';
 
 const bg = require('../layout/images/unnamed.gif')
 const fg = {
@@ -32,7 +33,16 @@ class ProfileAbout extends Component {
               {isEmpty(profile.bio) ? (
                 <span style={{color: 'white'}}>{firstName} does not have a bio</span>
               ) : (
-                <span style={{color: 'white'}}>{profile.bio}</span>
+                <ScrollArea
+                speed={0.8}
+                className="area"
+                contentClassName="content"
+                horizontal={false}
+                style={{maxHeight: '150px', borderRadius: '5px'}}
+                >
+                    <span style={{color: 'white', fontSize: '15px'}}><p>{profile.bio}</p></span>
+                </ScrollArea>
+                
               )}
             </p>
             <hr />
