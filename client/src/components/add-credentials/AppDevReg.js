@@ -93,7 +93,7 @@ GENERAL TRAINING OBEJECTIVES:
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Learn to work with the best tools in the industry</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Negotiate for salaries with employers.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Obtain 3 professional certificate.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use the game od Chess to solve any problem.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use the game of Chess to solve any problem.</p>
 
       
     </Col>
