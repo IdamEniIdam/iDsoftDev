@@ -117,7 +117,7 @@ class LandingPageDeHub extends Component {
                                     <Card  style={{ borderWidth: 0, backgroundColor: 'white'}} >
                                         <Card.Img variant="top" src={btl} />
                                         <Card.Body>
-                                            <Card.Title >FREE WIFI</Card.Title>
+                                            <Card.Title >FREE WIFI...</Card.Title>
                                             <Card.Text >
                                                 Yes seriously
    </Card.Text>
@@ -147,7 +147,7 @@ class LandingPageDeHub extends Component {
                                     <Card style={{ borderWidth: 0 ,backgroundColor: 'white'}}>
                                         <Card.Img variant="top" src={btl} />
                                         <Card.Body>
-                                            <Card.Title>FREE COFFEE</Card.Title>
+                                            <Card.Title>FREE COFFEE...</Card.Title>
                                             <Card.Text>
                                                 Yea, really
    </Card.Text>
@@ -174,7 +174,7 @@ class LandingPageDeHub extends Component {
                                     <Card style={{ borderWidth: 0, elevation: 0, backgroundColor: 'white'}}>
                                         <Card.Img variant="top" src={btl} />
                                         <Card.Body>
-                                            <Card.Title>FREE HOSTING</Card.Title>
+                                            <Card.Title>FREE HOSTING...</Card.Title>
                                             <Card.Text>
                                                 Yes, all for you
    </Card.Text>
