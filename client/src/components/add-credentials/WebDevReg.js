@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { addWebCoures } from '../../actions/profileActions';
 import {Jumbotron, Container,  Row, Col} from 'react-bootstrap';
 
-const bg = require('../layout/images/unnamed.gif')
+const bg = require('../layout/images/unnamed.gif');
 const fg = {
   width: '100%',
   backgroundImage: `url(${bg})`,
