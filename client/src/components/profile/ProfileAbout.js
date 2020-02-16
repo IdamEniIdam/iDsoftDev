@@ -30,7 +30,7 @@ class ProfileAbout extends Component {
             <h3 style={{color: 'white'}} className="text-center text-info">{firstName}'s Bio</h3>
             <p className="lead">
               {isEmpty(profile.bio) ? (
-                <span>{firstName} does not have a bio</span>
+                <span style={{color: 'white'}}>{firstName} does not have a bio</span>
               ) : (
                 <span style={{color: 'white'}}>{profile.bio}</span>
               )}

@@ -267,14 +267,14 @@ class EditProfileDeHub extends Component {
                   error={errors.website}
                   info="Could be your own website or a company one"
                 />
-                {/* <TextFieldGroup
+                <TextFieldGroup
                   placeholder="Github Username"
                   name="githubusername"
                   value={this.state.githubusername}
                   onChange={this.onChange}
                   error={errors.githubusername}
                   info="If you want your latest repos and a Github link, include your username"
-                /> */}
+                />
                 <TextAreaFieldGroup
                   placeholder="Short Bio"
                   name="bio"
