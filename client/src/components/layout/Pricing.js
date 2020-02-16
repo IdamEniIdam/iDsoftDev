@@ -15,6 +15,9 @@ class Pricing extends Component {
   render() {
     return (
         <div>
+           
+          <Courses /> 
+          <br />
         <Jumbotron  fluid style={divPrice}>
   <Container>
   <h1 style={{ textAlign: 'center', color: 'green' }}>TRAINING RATES</h1>
@@ -31,7 +34,6 @@ class Pricing extends Component {
           <div>
           <a href="/dashboard">
           <p style={{fontFamily: 'bold', fontSize: '30px'}}> 
-          {/* <i>&#8358;</i>100,000 <br /> */}
           WEBSITE DEVELOPMENT
           </p>
           <hr/>
@@ -52,13 +54,12 @@ class Pricing extends Component {
            
           </Col>
          
-
+      
          
           <Col sm style={{backgroundColor: '#ffb3b3',  borderRadius: '20px'}}>
           <div>
           <a href="/dashboard">
           <p  style={{fontFamily: 'bold', fontSize: '30px'}}>
-          {/* <i>&#8358;</i>150,000 <br /> */}
           SOFTWARE DEVELOPMENT
             </p>
             <hr/> 
@@ -79,13 +80,11 @@ class Pricing extends Component {
           
           </Col>
           
-
           
           <Col sm style={{backgroundColor: ' #b3d1ff', borderRadius: '20px'}}>
            <div>
            <a href="/dashboard">
            <p  style={{fontFamily: 'bold', fontSize: '30px'}}>
-           {/* <i>&#8358;</i>120,000 <br /> */}
           ANDROID DEVELOPMENT
             </p>
             <hr/> 
@@ -106,8 +105,7 @@ class Pricing extends Component {
           </Col>
           
           </Row>
-          <br />
-          <Courses />         
+                
         </div>
     );
   }

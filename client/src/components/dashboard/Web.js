@@ -11,7 +11,8 @@ const bg = require('../layout/images/unnamed.gif')
 const divStyle = {
   width: '100%',
   backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  borderRadius: '10px'
 }
 
 class Web extends Component {
@@ -22,12 +23,12 @@ class Web extends Component {
   render() {
     const webCoures = this.props.webCoures.map(exp => (
       <Row key={exp._id} style={{color: 'white', textAlign: "center"}}>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Phone</span><br/>{exp.phone}</Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Email</span><br/>{exp.email}</Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Date Applied</span><br/>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Phone</span><br/>{exp.phone}</Col>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Email</span><br/>{exp.email}</Col>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Date Applied</span><br/>
           <Moment format="YYYY/MM/DD">{exp.from}</Moment>
         </Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Option</span><br/>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Option</span><br/>
           <button
             onClick={this.onDeleteClick.bind(this, exp._id)}
             className="btn btn-danger"
@@ -39,7 +40,7 @@ class Web extends Component {
     ));
     return (
       <div style={divStyle}>
-        <h4 style={{textAlign: 'center', color: 'white'}}>Web Development Courses</h4>
+        <h4 style={{textAlign: 'center', color: 'white', backgroundColor: '#00aaff', borderRadius: '10px'}}>Web Development Courses</h4>
         <Container>
           {webCoures}
         </Container>

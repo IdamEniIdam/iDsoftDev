@@ -51,7 +51,7 @@ class DashboardDeHub extends Component {
               <Jumbotron style={fisrtdiv}>
   <Row>
     <Col sm>
-              Welcome <h3 style={{color: 'white'}}>{user.name}</h3>
+              <p style={{color: 'white'}}>Welcome</p> <h3 style={{color: 'white'}}>{user.name}</h3>
             </Col>
             </Row>
             </Jumbotron>

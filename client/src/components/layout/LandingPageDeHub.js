@@ -3,7 +3,8 @@ import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
 import unnamed from './images/unnamed.gif';
 import { Carousel } from 'react-bootstrap';
-import btl from './images/btl.gif'
+import btl from './images/btl.gif';
+import showcase from './images/showcase.jpg';
 import ReactCardFlip from 'react-card-flip';
 import Card from 'react-bootstrap/Card';
 import Pricing from './Pricing';
@@ -58,46 +59,43 @@ class LandingPageDeHub extends Component {
                 <Carousel>
                     <Carousel.Item>
                         <img
-                        style={{height: '300px'}}
                             className="d-block w-100"
-                            src={unnamed}
+                            src={showcase}
                             alt={"First slide"}
                         />
                         <Carousel.Caption>
-                            <div style={{ marginTop: '100px' }}>
-                                <h3 style={{ color: 'red' }}>DISCOVER YOUR PATHWAY</h3>
-                                <p>Learn in-demand skills, build awesome projects, and connect with a community. Explore our iDsoftDev programs and find your path to success.</p>
+                            <div>
+                                <h6 style={{ color: 'green', fontFamily: 'bold' }}>DISCOVER YOUR PATHWAY</h6>
+                                <p  style={{ color: 'orange'}}>Learn in-demand skills, build awesome projects, and connect with a community. Explore our iDsoftDev programs and find your path to success.</p>
                             </div>
 
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        style={{height: '300px'}}
                             className="d-block w-100"
-                            src={unnamed}
+                            src={showcase}
                             alt="second slide"
                         />
 
                         <Carousel.Caption>
-                            <div style={{ marginTop: '-100px' }}>
-                                <h3 style={{ color: 'red' }}>DESIGNED FOR TRUE BEGINNERS</h3>
-                                <p>We believe anyone can learn to code, no matter your background or experience level. Our teachers will walk you through each step of your learning, from understanding fundamental concepts.</p>
+                            <div >
+                                <h6 style={{ color: 'green', fontFamily: 'bold' }}>DESIGNED FOR TRUE BEGINNERS</h6>
+                                <p style={{ color: 'orange'}}>We believe anyone can learn to code, no matter your background or experience level. Our teachers will walk you through each step of your learning, from understanding fundamental concepts.</p>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        style={{height: '300px'}}
                             className="d-block w-100"
-                            src={unnamed}
+                            src={showcase}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <div style={{ marginTop: '-100px' }}>
-                                <h3 style={{ color: 'red' }}>SMARTER WAY TO LEARN</h3>
-                                <p>Guided learning paths, technical and soft skills, build a portfolio and so much to learn.
+                            <div>
+                                <h6 style={{ color: 'green', fontFamily: 'bold' }}>SMARTER WAY TO LEARN</h6>
+                                <p style={{ color: 'orange'}}>Guided learning paths, technical and soft skills, build a portfolio and so much to learn.
 </p>
                             </div>
                         </Carousel.Caption>

@@ -9,7 +9,8 @@ const bg = require('../layout/images/unnamed.gif')
 const divStyle = {
   width: '100%',
   backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  borderRadius: '10px'
 }
 
 class Education extends Component {
@@ -20,9 +21,9 @@ class Education extends Component {
   render() {
     const education = this.props.education.map(edu => (
       <Row key={edu._id} style={{color: 'white', textAlign: "center"}}>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>School</span><br/> {edu.school}</Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Degree</span><br/> {edu.degree}</Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Years</span><br/> 
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>School</span><br/> {edu.school}</Col>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Degree</span><br/> {edu.degree}</Col>
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Years</span><br/> 
           <Moment format="YYYY/MM/DD">{edu.from}</Moment> -
           {edu.to === null ? (
             ' Now'
@@ -30,7 +31,7 @@ class Education extends Component {
             <Moment format="YYYY/MM/DD">{edu.to}</Moment>
           )}
         </Col>
-        <Col md><span style={{color: 'green', fontSize: '20px'}}>Option</span><br/> 
+        <Col md><span style={{color: '#00aaff', fontSize: '20px'}}>Option</span><br/> 
           <button
             onClick={this.onDeleteClick.bind(this, edu._id)}
             className="btn btn-danger"
@@ -42,7 +43,7 @@ class Education extends Component {
     ));
     return (
       <div style={divStyle}>
-        <h4 style={{textAlign: 'center', color: 'white'}}>Education Credentials</h4>
+        <h4 style={{textAlign: 'center', color: 'white', backgroundColor: '#00aaff', borderRadius: '10px'}}>Education</h4>
         <Container>
         {education}
         </Container>

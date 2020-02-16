@@ -7,15 +7,6 @@ import { logoutUser } from "../../actions/authActions";
 import { clearCurrentProfile } from "../../actions/profileActions";
 
 
-
-const bg = require('../layout/images/unnamed.gif')
-const divNav = {
-  width: '100%',
-  backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover'
-}
-
-
 class Navbar extends Component {
   onLogoutClick(e) {
     e.preventDefault();
@@ -94,12 +85,12 @@ class Navbar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-sm mb-4" style={divNav}>
+      <nav className="navbar navbar-expand-sm mb-4">
         <div className="container">
-          <Link style={{color: 'white', textAlign: 'center'}} className="navbar-brand" to="/">
+          <Link style={{ textAlign: 'center'}} className="navbar-brand" to="/">
           <img
           className="rounded-circle"
-            style={{width: '130px'}}
+            style={{width: '130px', resizeMode: 'contain'}}
                             src={idlog}
                            alt={"id log"}
                         />
@@ -107,7 +98,7 @@ class Navbar extends Component {
             iDSoftDev
           </Link>
           <button
-          style={{backgroundColor: 'pink', color: 'green', height: '50px'}}
+          style={{backgroundColor: 'white', color: '#00aaff', height: '50px'}}
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"

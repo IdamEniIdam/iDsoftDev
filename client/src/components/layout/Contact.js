@@ -66,14 +66,14 @@ class Contact extends Component {
         <Col sm>
 
   <h1 className="H1contact">Contact Us</h1>
-    <p className="p1f">
+    {/* <p className="p1f">
     House 101. Behind KingsLand Hotel Jiwa Abuja.
-    </p>
+    </p> */}
 
       <div style={{textAlign: 'center'}}>
       <p className="fa fa-phone">  +2347038335277</p>
       <br />
-      <p className="fa fa-envelope">training@idsoftdev.herokuapp.com</p>
+      <p className="fa fa-envelope">  training@idsoftdev</p>
       </div>
       <div style={{textAlign: 'center'}}>
         <a className="Fb" alt="facebook" href="https://www.facebook.com/IDLegend"><p className="fab fa-facebook fa-2x"></p></a>
