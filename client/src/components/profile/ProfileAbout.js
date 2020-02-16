@@ -29,7 +29,7 @@ class ProfileAbout extends Component {
         <div className="col-md-12">
           <div className="card card-body bg-light mb-3" style={fg}>
             <h3 style={{color: 'white'}} className="text-center text-info">{firstName}'s Bio</h3>
-            <p className="lead">
+            <div className="lead">
               {isEmpty(profile.bio) ? (
                 <span style={{color: 'white'}}>{firstName} does not have a bio</span>
               ) : (
@@ -40,11 +40,11 @@ class ProfileAbout extends Component {
                 horizontal={false}
                 style={{maxHeight: '150px', borderRadius: '5px'}}
                 >
-                    <span style={{color: 'white', fontSize: '15px'}}><p>{profile.bio}</p></span>
+                    <span style={{color: 'white', fontSize: '15px'}}>{profile.bio}</span>
                 </ScrollArea>
                 
               )}
-            </p>
+            </div>
             <hr />
             <h3 className="text-center text-info">Skill Set</h3>
             <div className="row">
