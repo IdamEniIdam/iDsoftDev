@@ -19,7 +19,7 @@ export default () => {
           <img
                         style={{height: '100px', width: '100px', borderRadius: '30px'}}
                             src={paystack}
-                            alt="paystack logo"
+                            alt="paystack IDlogo"
                         />
           </Link>
    
