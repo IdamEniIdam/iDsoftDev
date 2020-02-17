@@ -105,8 +105,8 @@ class LandingPageDeHub extends Component {
                 <div>
     <Jumbotron fluid style={{backgroundColor: 'white'}} >
 <Container fluid style={{backgroundColor: 'white'}}>
-                <h1 style={{ textAlign: 'center', color: 'green' }}>MORE THAN LEARNING</h1>
-                <h5 style={{ textAlign: 'center', color: 'green' }}>A WORLD CLASS LEARNING EXPERIENCE FOR THOSE WHO EXPECT MORE!</h5>
+                <h1 style={{ textAlign: 'center', color: 'green' }}>START BUILDING YOUR FUTURE</h1>
+                {/* <h5 style={{ textAlign: 'center', color: 'green' }}>A WORLD CLASS LEARNING EXPERIENCE FOR THOSE WHO EXPECT MORE!</h5> */}
 
                 <Container fluid>
                     <Row style={{ textAlign: 'center' }}>
@@ -117,9 +117,9 @@ class LandingPageDeHub extends Component {
                                     <Card  style={{ borderWidth: 0, backgroundColor: 'white'}} >
                                         <Card.Img variant="top" src={btl} />
                                         <Card.Body>
-                                            <Card.Title >FREE WIFI...</Card.Title>
+                                            <Card.Title >FREE INTERNET...</Card.Title>
                                             <Card.Text >
-                                                Yes seriously
+                                                connect to online WIFI
    </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -131,7 +131,7 @@ class LandingPageDeHub extends Component {
                                         <Card.Body>
                                             <Card.Title>1.</Card.Title>
                                             <Card.Text>
-                                                Wifi is to us what Oxygen is to Air, we'll be unkind to deny you this digital oxygen. Join us and make our world a better place. Tech roles the world.
+                                                During the cause of your study you will be entitled to a free internet connection, until your are done with your program.
    </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -147,9 +147,9 @@ class LandingPageDeHub extends Component {
                                     <Card style={{ borderWidth: 0 ,backgroundColor: 'white'}}>
                                         <Card.Img variant="top" src={btl} />
                                         <Card.Body>
-                                            <Card.Title>FREE COFFEE...</Card.Title>
+                                            <Card.Title>BEFORE THREE...</Card.Title>
                                             <Card.Text>
-                                                Yea, really
+                                                Before three months
    </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -161,7 +161,7 @@ class LandingPageDeHub extends Component {
                                         <Card.Body>
                                             <Card.Title>2.</Card.Title>
                                             <Card.Text>
-                                                Coffee makes you smarter and energizes your brain, that's why we love it and that's why you'll be getting free coffee from our training.
+                                                Before three months you will boost of building your own portfolio your self. You will be proud of what you can do.
    </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -176,7 +176,7 @@ class LandingPageDeHub extends Component {
                                         <Card.Body>
                                             <Card.Title>FREE HOSTING...</Card.Title>
                                             <Card.Text>
-                                                Yes, all for you
+                                            Part of your package
    </Card.Text>
                                         </Card.Body>
                                     </Card>
@@ -188,7 +188,7 @@ class LandingPageDeHub extends Component {
                                         <Card.Body>
                                             <Card.Title>3.</Card.Title>
                                             <Card.Text>
-                                                We'll give you 1 year free hosting. Use it to host your own portfolio website to impress potential employers or clients at the end of your training.
+                                                One good free year of hosting. Your developed portfolio will be hosted on line for free for period of 1 year.
    </Card.Text>
                                         </Card.Body>
                                     </Card>

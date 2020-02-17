@@ -20,7 +20,7 @@ class Training extends Component {
   <Container>
   <h1 style={{ textAlign: 'center', color: 'green' }}>TRAININGS</h1>
     <p style={{ textAlign: 'center', color: 'white'}}>
-    Here are the awesomeness we can train you on.
+    Check out different course we have for you.
     </p>
   </Container>
 </Jumbotron>
@@ -35,7 +35,7 @@ class Training extends Component {
                 <Card.Body style={{textAlign: 'center'}}>
                     <Card.Title>WEB DEVELOPMENT (JAVASCRIPT)</Card.Title>
                     <Card.Text>
-                    Learn modern software development with high demand technologies like Nodejs, Reactjs & Redux
+                    Learn the lastest software development skills like Nodejs, Reactjs & Redux
 </Card.Text>
                 </Card.Body>
             </Card>
@@ -82,16 +82,16 @@ Learn how to build real android and iOS apps, by the end of the first section yo
 
 <Jumbotron fluid style={divTraining}>
   <Container>
-  <h1 style={{ textAlign: 'center', color: 'green' }}>THERE'S MORE</h1>
-    <p style={{ textAlign: 'center', color: 'green'}}>
+  <h1 style={{ textAlign: 'center', color: 'green' }}>MORE TO GAIN</h1>
+    {/* <p style={{ textAlign: 'center', color: 'green'}}>
     Get more than you pay for <br></br>
     All these are part of your bonuses
-    </p>
+    </p> */}
     <div className="Dd" style={{color: 'white'}}>
     <p><i className="fa fa-money"> </i><i className="Digital"></i>Chess Classes</p>
-    <p><i className="fa fa-money"> </i><i className="Digital"></i>Digital Marketing Mini-Course</p>
-    <p><i className="fa fa-money"> </i><i className="Digital">&#8358;</i>19,000 Worth of Digital Assets</p>
-    <p><i className="fa fa-money"> </i><i className="Digital"></i>Up To 3 Certificates</p>
+    <p><i className="fa fa-money"> </i><i className="Digital"></i>Social media marketing</p>
+    <p><i className="fa fa-money"> </i><i className="Digital"></i> Digital Assets</p>
+    <p><i className="fa fa-money"> </i><i className="Digital"></i>Certificates</p>
     </div>
   </Container>
 </Jumbotron>

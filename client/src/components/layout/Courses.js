@@ -31,7 +31,7 @@ class Courses extends Component {
   <Container>
   <h1 style={{ textAlign: 'center', color: 'green' }}>COURSES</h1>
     <p style={{ textAlign: 'center', color: 'white'}}>
-    Here's what you'll learn in this training.
+    These are the list of programming language you are going to learn.
     </p>
   </Container>
 </Jumbotron>

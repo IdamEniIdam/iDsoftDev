@@ -20,10 +20,9 @@ class Pricing extends Component {
           <br />
         <Jumbotron  fluid style={divPrice}>
   <Container>
-  <h1 style={{ textAlign: 'center', color: 'green' }}>TRAINING RATES</h1>
+  <h1 style={{ textAlign: 'center', color: 'green' }}>TRAINING TYPE</h1>
     <p style={{ textAlign: 'center', color: "white"}}>
-    If you have any question about the training rates below kindly call us on
-    +2347038335277
+    Call us on +2347038335277. We are always open to take your call.
     </p>
   </Container>
 </Jumbotron>
@@ -45,7 +44,7 @@ class Pricing extends Component {
               <li><p><i>&#8358;</i>40,000 - for students & Interns</p></li>
               <li><p>FREE Wifi</p></li>
               <li><p>Chess classes</p></li>
-              <li><p>Digital Marketing mini-course</p></li>
+              {/* <li><p>Digital Marketing mini-course</p></li> */}
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
@@ -71,7 +70,7 @@ class Pricing extends Component {
               <li><p><i>&#8358;</i>60,000 - for students & Interns</p></li>
               <li><p>FREE Wifi</p></li>
               <li><p>Chess classes</p></li>
-              <li><p>Digital Marketing mini-course</p></li>
+              {/* <li><p>Digital Marketing mini-course</p></li> */}
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
@@ -96,7 +95,7 @@ class Pricing extends Component {
               <li><p><i>&#8358;</i>60,000 - for students & Interns</p></li>
               <li><p>FREE Wifi</p></li>
               <li><p>Chess classes</p></li>
-              <li><p>Digital Marketing mini-course</p></li>
+              {/* <li><p>Digital Marketing mini-course</p></li> */}
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
