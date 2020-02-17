@@ -73,16 +73,16 @@ class AppDevReg extends Component {
      </Link>
     <Jumbotron  fluid style={fg}>
 <Container>
-<h1 style={{ textAlign: 'center', color: 'green' }}>BECOME A TOP NOTCH MOBILE APP DEVELOPER</h1>
+<h1 style={{ textAlign: 'center', color: 'green' }}>FULL STACK javaScript DEVELOPER</h1>
 <hr />
 
 
 <Row>
   <Col sm style={{color: 'white'}} >
   <p style={{ textAlign: 'center', color: 'white'}}>
-GENERAL TRAINING OBEJECTIVES:
+  OUR MAJOR MISSION:
 </p>
-<p>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p>
+{/* <p>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p> */}
 
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build at least 5 real projects.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Built a portfolio App to impress future employers & clients about what you are capable of.</p>
@@ -92,8 +92,8 @@ GENERAL TRAINING OBEJECTIVES:
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Posses the "Confidence" to take on any app develoment project.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Learn to work with the best tools in the industry</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Negotiate for salaries with employers.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Obtain 3 professional certificate.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use the game of Chess to solve any problem.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Obtain professional certificate.</p>
+{/* <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use the game of Chess to solve any problem.</p> */}
 
       
     </Col>
@@ -105,7 +105,7 @@ GENERAL TRAINING OBEJECTIVES:
 TECHNICAL OBEJECTIVES:
 </p>
 
-<p style={{color: 'white'}}>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p>
+{/* <p style={{color: 'white'}}>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p> */}
 
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build app screens with Expo.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Style app screens with css & bootstrap.</p>
