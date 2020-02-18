@@ -73,7 +73,7 @@ class WebDevReg extends Component {
      </Link>
     <Jumbotron  fluid style={fg}>
 <Container>
-<h1 style={{ textAlign: 'center', color: 'green' }}>FULL STACK javaScript DEVELOPER</h1>
+<h1 style={{ textAlign: 'center', color: 'green' }}>FULL STACK JAVASCRIPT DEVELOPER</h1>
 <hr />
 
 
@@ -84,14 +84,15 @@ OUR MAJOR MISSION:
 </p>
 {/* <p>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p> */}
 
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build at least 10 real projects</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Built a portfolio websites to impress future employers & clients about what you are capable of.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Apply for remote & inhouse web development jobs in Tech Companies.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Answser interview questions intelligently.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Close 6-figure web development deals easier and faster.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Posses the "Confidence" to take on any web develoment project.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Learn to work with the best tools in the industry</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Negotiate for salaries with employers.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build at least 5 real projects</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>You'll master at least one relevant server side scripting language.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>You'll be good at at least one database technologies.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Ability to design and develop technical plans.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Excellent understanding of design principles and experience in their application.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Logical and structured way of interpreting information.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Extensive problem solving and critical thinking abilities.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Analytical skills to evaluate software and make improvements.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Understand the best practices for web development.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Obtain professional certificate.</p>
 {/* <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use the game of Chess to solve any problem.</p> */}
 
@@ -107,17 +108,16 @@ OUR MAJOR MISSION:
 
 {/* <p style={{color: 'white'}}>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p> */}
 
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build web pages with HTML5.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Highly-knowledgeable in HTML and CSS.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Style web pages with css & bootstrap.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Manipulate behaviour of website with javaScript.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Expert level proficiency with javaScript.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build Databases with MongoDB DBMS.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Write computer programes with Node js programming language.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Built robust & secure web applications with Node js</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Knowledgeable about mobile responsive design</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use github to manage your code versioning.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Use github to host your code & collaborate other developers.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Build any kind of website with React js.</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Design and developed efficient and maintainable software accprding to the business objectives</p>
+<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Worked closely in the planning, design, and delivery of software products and services.</p>
 <p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Host website in Heroku.</p>
-<p><i className="fa fa-check-square-o" style={{padding: '5px'}}> </i>Understand the best practices for web development.</p>
 
 
     
@@ -138,7 +138,7 @@ OUR MAJOR MISSION:
   <Col sm  style={{color: 'white'}}>
     fullName<br/>
   <TextFieldGroup 
-  placeholder="You Answer"
+  placeholder="Full Name"
   name="fName" 
   type="text" 
   value={this.state.fName} 
@@ -150,7 +150,7 @@ OUR MAJOR MISSION:
   <Col sm  style={{color: 'white'}}>
     Email<br/>
   <TextFieldGroup  
-  placeholder="You Answer" 
+  placeholder="Email Address" 
   type="email" 
   name="email"
   value={this.state.email} 
@@ -162,7 +162,7 @@ OUR MAJOR MISSION:
   <Col sm  style={{color: 'white'}}>
     Phone Number
   <TextFieldGroup 
-  placeholder="You Answer" 
+  placeholder="Mobile Number" 
   type="text" 
   name="phone"
   value={this.state.phone} 

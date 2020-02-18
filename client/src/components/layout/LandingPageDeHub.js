@@ -105,7 +105,7 @@ class LandingPageDeHub extends Component {
                 <div>
     <Jumbotron fluid style={{backgroundColor: 'white'}} >
 <Container fluid style={{backgroundColor: 'white'}}>
-                <h1 style={{ textAlign: 'center', color: 'green' }}>START BUILDING YOUR FUTURE</h1>
+                <h5 style={{ textAlign: 'center', color: 'green' }}>START BUILDING YOUR FUTURE</h5>
                 {/* <h5 style={{ textAlign: 'center', color: 'green' }}>A WORLD CLASS LEARNING EXPERIENCE FOR THOSE WHO EXPECT MORE!</h5> */}
 
                 <Container fluid>
