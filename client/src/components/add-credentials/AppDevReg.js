@@ -103,7 +103,7 @@ class AppDevReg extends Component {
   
 
 <p style={{ textAlign: 'center', color: 'white'}}>
-TECHNICAL OBEJECTIVES:
+OUR MAJOR MISSION:
 </p>
 
 {/* <p style={{color: 'white'}}>BY THE END OF THIS TRAINING YOU'LL BE ABLE TO;</p> */}

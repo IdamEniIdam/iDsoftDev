@@ -52,20 +52,18 @@ onChange(e) {
       // Select options for status
       const options = [
         { label: '* Transaction amount', value: 0 },
-        { label: 'Web Development for weekend class', value: 11000000 },
-        { label: 'Web Development if paying once', value: 9000000 },
-        { label: 'Web Development for corpers', value: 6000000 },
-        { label: 'Web Development for students & Interns', value: 4000000 },
-
-        { label: 'Android Development for weekend class', value: 13000000 },
-        { label: 'Android Development if paying once', value: 11000000 },
-        { label: 'Android Development for corpers', value: 8000000 },
-        { label: 'Android Development for students & Interns', value: 6000000 },
-
-        { label: 'Software Development for weekend class', value: 16000000 },
-        { label: 'Software Development if paying once', value: 14000000},
-        { label: 'Software Development for corpers', value: 10000000 },
-        { label: 'Software Development for students & Interns', value: 6000000 }
+        { label: 'Web Development for weekend class', value: 13000000 },
+        { label: 'Web Development if paying once', value: 11000000 },
+        { label: 'Web Development for corpers', value: 8000000 },
+        { label: 'Web Development for students & Interns', value: 6000000 },
+        { label: 'Android Development for weekend class', value: 15000000 },
+        { label: 'Android Development if paying once', value: 13000000 },
+        { label: 'Android Development for corpers', value: 10000000 },
+        { label: 'Android Development for students & Interns', value: 8000000 },
+        { label: 'Software Development for weekend class', value: 18000000 },
+        { label: 'Software Development if paying once', value: 16000000},
+        { label: 'Software Development for corpers', value: 12000000 },
+        { label: 'Software Development for students & Interns', value: 8000000 }
       ];
     return (
       <div>

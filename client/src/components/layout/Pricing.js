@@ -38,13 +38,10 @@ class Pricing extends Component {
           <hr/>
           <div>
             <ul>
-              <li><p><i>&#8358;</i>110,000 - for weekend class</p></li>
-              <li><p><i>&#8358;</i>90,000 - if paying once</p></li>
-              <li><p><i>&#8358;</i>60,000 - for corpers</p></li>
-              <li><p><i>&#8358;</i>40,000 - for students & Interns</p></li>
-              <li><p>FREE Wifi</p></li>
-              <li><p>Chess classes</p></li>
-              {/* <li><p>Digital Marketing mini-course</p></li> */}
+              <li><p><i>&#8358;</i>130,000 - WEEKEND CLASS</p></li>
+              <li><p><i>&#8358;</i>110,000 - PAYING ONCE</p></li>
+              <li><p><i>&#8358;</i>80,000 - CORPERS</p></li>
+              <li><p><i>&#8358;</i>60,000 - STUDENTS & INTERNS</p></li>
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
@@ -64,13 +61,10 @@ class Pricing extends Component {
             <hr/> 
             <div>
             <ul>
-              <li><p><i>&#8358;</i>160,000 - for weekend class</p></li>
-              <li><p><i>&#8358;</i>140,000 - if paying once</p></li>
-              <li><p><i>&#8358;</i>100,000 - for corpers</p></li>
-              <li><p><i>&#8358;</i>60,000 - for students & Interns</p></li>
-              <li><p>FREE Wifi</p></li>
-              <li><p>Chess classes</p></li>
-              {/* <li><p>Digital Marketing mini-course</p></li> */}
+              <li><p><i>&#8358;</i>180,000 - WEEKEND CLASS</p></li>
+              <li><p><i>&#8358;</i>160,000 - PAYING ONCE</p></li>
+              <li><p><i>&#8358;</i>120,000 - CORPERS</p></li>
+              <li><p><i>&#8358;</i>80,000 - STUDENTS & INTERNS</p></li>
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
@@ -89,13 +83,10 @@ class Pricing extends Component {
             <hr/> 
             <div>
             <ul>
-              <li><p><i>&#8358;</i>130,000 - for weekend class</p></li>
-              <li><p><i>&#8358;</i>110,000 - if paying once</p></li>
-              <li><p><i>&#8358;</i>80,000 - for corpers</p></li>
-              <li><p><i>&#8358;</i>60,000 - for students & Interns</p></li>
-              <li><p>FREE Wifi</p></li>
-              <li><p>Chess classes</p></li>
-              {/* <li><p>Digital Marketing mini-course</p></li> */}
+              <li><p><i>&#8358;</i>150,000 - WEEKEND CLASS</p></li>
+              <li><p><i>&#8358;</i>130,000 - PAYING ONCE</p></li>
+              <li><p><i>&#8358;</i>100,000 - CORPERS</p></li>
+              <li><p><i>&#8358;</i>80,000 - STUDENTS & INTERNS</p></li>
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>
