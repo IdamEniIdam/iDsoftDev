@@ -86,7 +86,7 @@ class Pricing extends Component {
               <li><p><i>&#8358;</i>150,000 - WEEKEND CLASS</p></li>
               <li><p><i>&#8358;</i>130,000 - PAYING ONCE</p></li>
               <li><p><i>&#8358;</i>100,000 - CORPERS</p></li>
-              <li><p><i>&#8358;</i>80,000 - STUDENTS & INTERNS</p></li>
+              <li><p><i>&#8358;</i>70,000 - STUDENTS & INTERNS</p></li>
               <li><p>Certificates on completion</p></li>
             </ul>
           </div>

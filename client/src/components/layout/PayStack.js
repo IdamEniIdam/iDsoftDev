@@ -59,7 +59,7 @@ onChange(e) {
         { label: 'Android Development for weekend class', value: 15000000 },
         { label: 'Android Development if paying once', value: 13000000 },
         { label: 'Android Development for corpers', value: 10000000 },
-        { label: 'Android Development for students & Interns', value: 8000000 },
+        { label: 'Android Development for students & Interns', value: 7000000 },
         { label: 'Software Development for weekend class', value: 18000000 },
         { label: 'Software Development if paying once', value: 16000000},
         { label: 'Software Development for corpers', value: 12000000 },
