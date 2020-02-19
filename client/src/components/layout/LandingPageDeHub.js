@@ -66,7 +66,7 @@ class LandingPageDeHub extends Component {
                         <Carousel.Caption>
                             <div>
                                 <h6 style={{ color: 'green', fontFamily: 'bold' }}>DISCOVER YOUR PATHWAY</h6>
-                                <p  style={{ color: 'orange'}}>Learn in-demand skills, build awesome projects, and connect with a community. Explore our iDsoftDev programs and find your path to success.</p>
+                                <p  style={{ color: 'white', fontFamily: 'bold' }}>Learn in-demand skills, build awesome projects, and connect with a community. Explore our iDsoftDev programs and find your path to success.</p>
                             </div>
 
                         </Carousel.Caption>
@@ -81,7 +81,7 @@ class LandingPageDeHub extends Component {
                         <Carousel.Caption>
                             <div >
                                 <h6 style={{ color: 'green', fontFamily: 'bold' }}>DESIGNED FOR TRUE BEGINNERS</h6>
-                                <p style={{ color: 'orange'}}>We believe anyone can learn to code, no matter your background or experience level. Our teachers will walk you through each step of your learning, from understanding fundamental concepts.</p>
+                                <p style={{color: 'white', fontFamily: 'bold' }}>We believe anyone can learn to code, no matter your background or experience level. Our teachers will walk you through each step of your learning, from understanding fundamental concepts.</p>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -95,7 +95,7 @@ class LandingPageDeHub extends Component {
                         <Carousel.Caption>
                             <div>
                                 <h6 style={{ color: 'green', fontFamily: 'bold' }}>SMARTER WAY TO LEARN</h6>
-                                <p style={{ color: 'orange'}}>Guided learning paths, technical and soft skills, build a portfolio and so much to learn.
+                                <p style={{color: 'white', fontFamily: 'bold' }}>Guided learning paths, technical and soft skills, build a portfolio and so much to learn.
 </p>
                             </div>
                         </Carousel.Caption>

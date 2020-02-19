@@ -25,11 +25,11 @@ class Navbar extends Component {
           </Link>
         </li> */}
         <li className="nav-item">
-          <Link className="nav-link" to="/dashboard">
+          <Link className="nav-link" to="/dashboard" style={{color: 'green'}}>
             Dashboard
           </Link>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" >
           <a
             href="/"
             onClick={this.onLogoutClick.bind(this)}
@@ -42,7 +42,7 @@ class Navbar extends Component {
               style={{ width: "25px", marginRight: "5px" }}
               title="You must have a Gravatar connected to your email to display an image"
             />{" "}
-            Logout
+            <p style={{color: 'green'}}>Logout</p>
           </a>
         </li>
       </ul>
@@ -52,40 +52,58 @@ class Navbar extends Component {
       <ul className="navbar-nav ml-auto">
            <li className="nav-item">
           <Link className="nav-link" to="/login">
-            Login
+          <p style={{color: 'green'}}>
+          Login
+              </p>
+            
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/register">
-            Register
+          <p style={{color: 'green'}}>
+          Register
+          </p>
+            
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/courses">
+          <p style={{color: 'green'}}>
           Courses
+          </p>
+         
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/training">
+          <p style={{color: 'green'}}>
           Training
+          </p>
+       
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/pricing">
+          <p style={{color: 'green'}}>
           Pricing
+          </p>
+         
           </Link>
         </li>
      
         <li className="nav-item">
           <Link className="nav-link" to="/contact">
-          Contact
+            <p style={{color: 'green'}}>
+            Contact
+            </p>
+          
           </Link>
         </li>
       </ul>
     );
 
     return (
-      <nav className="navbar navbar-expand-sm mb-4">
+      <nav className="navbar navbar-expand-sm mb-4" >
         <div className="container">
           <Link style={{ textAlign: 'center'}} className="navbar-brand" to="/">
           <img
@@ -95,10 +113,10 @@ class Navbar extends Component {
                            alt={"id log"}
                         />
                         <br />
-            iDSoftDev
+            <p style={{color: 'green'}}>iDSoftDev</p>
           </Link>
           <button
-          style={{backgroundColor: 'white', color: '#00aaff', height: '50px'}}
+          style={{backgroundColor: 'white', color: 'green', height: '50px'}}
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -120,7 +138,8 @@ class Navbar extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/feed">
                   {" "}
-                  Post Feed
+                  <p style={{color: 'green'}}>Post Feed</p>
+                  
                 </Link>
               </li>
             </ul>
