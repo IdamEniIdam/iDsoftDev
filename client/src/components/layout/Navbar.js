@@ -19,11 +19,11 @@ class Navbar extends Component {
 
     const authLinks = (
       <ul className="navbar-nav ml-auto">
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/feed">
+        <li className="nav-item">
+          <Link className="nav-link" to="/feed" style={{color: 'green'}}>
             Post Feed
           </Link>
-        </li> */}
+        </li>
         <li className="nav-item">
           <Link className="nav-link" to="/dashboard" style={{color: 'green'}}>
             Dashboard
@@ -99,6 +99,15 @@ class Navbar extends Component {
           
           </Link>
         </li>
+
+        {/* <li className="nav-item">
+          <Link className="nav-link" to="/cart">
+            <p style={{color: 'green'}}>
+            Cart
+            </p>
+          
+          </Link>
+        </li> */}
       </ul>
     );
 
@@ -135,13 +144,7 @@ class Navbar extends Component {
                   Registered Users
                 </Link>
               </li> */}
-              <li className="nav-item">
-                <Link className="nav-link" to="/feed">
-                  {" "}
-                  <p style={{color: 'green'}}>Post Feed</p>
-                  
-                </Link>
-              </li>
+           
             </ul>
             {/* {isAuthenticated ? authLinks : guestLinks} */}
           </div>
