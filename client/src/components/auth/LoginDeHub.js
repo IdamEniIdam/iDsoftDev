@@ -4,6 +4,10 @@ import {Jumbotron, Container,Row, Col } from 'react-bootstrap';
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import TextFieldGroup from "../common/TextFieldGroup";
+import FacebookLogin from 'react-facebook-login';
+
+import GoogleLogin from 'react-google-login';
+// import { Redirect } from "react-router-dom";
 
 
 
@@ -30,6 +34,7 @@ class LoginDeHub extends Component {
 
 
   componentDidMount() {
+    
     if (this.props.auth.isAuthenticated) {
       this.props.history.push("/dashboard");
     }
@@ -62,6 +67,27 @@ class LoginDeHub extends Component {
 
   render() {
     const { errors } = this.state;
+
+
+
+    const responseFacebook = (response) => {
+      alert('wjjjjjjjjjjjjjjjjjj');
+      // this.props.history.push("/dashboard");
+    
+      if (!this.props.auth.isAuthenticated) {
+        this.props.history.push("/dashboard");
+      }else{
+        console.log('please sign up')
+      }
+      // console.log('facebook response',response);
+    }
+
+    const responseGoogle = (response) => {
+
+      console.log('google login id', response);
+    }
+
+
     return (
     <div>
     <Jumbotron fluid style={divStyle}>
@@ -105,6 +131,28 @@ error={errors.email}
 </div>
 </Row>
 </Col>
+
+
+<div className="App">
+        <h1>LOGIN WITH FACEBOOK AND GOOGLE</h1>
+
+      <FacebookLogin
+        appId="199374094750643" //APP ID NOT CREATED YET
+        fields="name,email,picture"
+        callback={responseFacebook}
+      />
+      <br />
+      <br />
+
+
+      <GoogleLogin
+        clientId="739600500967-qlk8hde3i43n10u6mevvbbcjap5mom1j.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
+        buttonText="LOGIN WITH GOOGLE"
+        onSuccess={responseGoogle}
+        onFailure={responseGoogle}
+      />
+
+      </div>
 
 </Container>
 </Jumbotron>

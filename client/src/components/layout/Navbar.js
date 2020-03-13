@@ -99,15 +99,6 @@ class Navbar extends Component {
           
           </Link>
         </li>
-
-        {/* <li className="nav-item">
-          <Link className="nav-link" to="/cart">
-            <p style={{color: 'green'}}>
-            Cart
-            </p>
-          
-          </Link>
-        </li> */}
       </ul>
     );
 
@@ -138,12 +129,13 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="mobile-nav">
           {isAuthenticated ? authLinks : guestLinks}
             <ul className="navbar-nav mr-auto">
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link" to="/profiles">
                   {" "}
-                  Registered Users
+                  <p style={{color: 'green'}}>Registered Users</p>
+                 
                 </Link>
-              </li> */}
+              </li>
            
             </ul>
             {/* {isAuthenticated ? authLinks : guestLinks} */}

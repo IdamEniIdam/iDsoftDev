@@ -44,7 +44,6 @@ import Nodejs from "./components/layout/coures/Nodejs";
 import Reactjs from "./components/layout/coures/Reactjs";
 import ReactNative from "./components/layout/coures/ReactNative";
 import PayStack from "./components/layout/PayStack";
-import Carts from './components/layout/Cart';
 import "./App.css";
 import JavaScript from "./components/layout/coures/JavaScript";
 
@@ -85,7 +84,6 @@ class App extends Component {
               <Route exact path="/training" component={Training} />
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/payment" component={PayStack} />
-              <Route exact path="/cart" component={Carts} />
               <Route exact path="/html" component={Html} />
               <Route exact path="/css" component={Css} />
               <Route exact path="/bootstrap" component={Bootstrap} />

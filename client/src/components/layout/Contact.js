@@ -7,7 +7,7 @@ import { addContact } from '../../actions/contactActions';
 import {  withRouter } from 'react-router-dom';
 import TextFieldGroup from '../common/TextFieldGroup';
 import TextAreaFieldGroup from '../common/TextAreaFieldGroup';
-// https://fontawesome.com/v4.7.0/icons/
+// https://fontawesome.com/v4.7.0/icons
 // https://react-bootstrap.github.io/components/modal/
 
 
