@@ -4,9 +4,9 @@ import {Jumbotron, Container,Row, Col } from 'react-bootstrap';
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import TextFieldGroup from "../common/TextFieldGroup";
-import FacebookLogin from 'react-facebook-login';
+// import FacebookLogin from 'react-facebook-login';
 
-import GoogleLogin from 'react-google-login';
+// import GoogleLogin from 'react-google-login';
 // import { Redirect } from "react-router-dom";
 
 
@@ -70,22 +70,22 @@ class LoginDeHub extends Component {
 
 
 
-    const responseFacebook = (response) => {
-      alert('wjjjjjjjjjjjjjjjjjj');
-      // this.props.history.push("/dashboard");
+    // const responseFacebook = (response) => {
+    //   alert('wjjjjjjjjjjjjjjjjjj');
+    //   // this.props.history.push("/dashboard");
     
-      if (!this.props.auth.isAuthenticated) {
-        this.props.history.push("/dashboard");
-      }else{
-        console.log('please sign up')
-      }
-      // console.log('facebook response',response);
-    }
+    //   if (!this.props.auth.isAuthenticated) {
+    //     this.props.history.push("/dashboard");
+    //   }else{
+    //     console.log('please sign up')
+    //   }
+    //   // console.log('facebook response',response);
+    // }
 
-    const responseGoogle = (response) => {
+    // const responseGoogle = (response) => {
 
-      console.log('google login id', response);
-    }
+    //   console.log('google login id', response);
+    // }
 
 
     return (
@@ -132,7 +132,7 @@ error={errors.email}
 </Row>
 </Col>
 
-
+{/* 
 <div className="App">
         <h1>LOGIN WITH FACEBOOK AND GOOGLE</h1>
 
@@ -152,7 +152,7 @@ error={errors.email}
         onFailure={responseGoogle}
       />
 
-      </div>
+      </div> */}
 
 </Container>
 </Jumbotron>
